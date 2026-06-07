@@ -1,0 +1,15 @@
+.project-name-input
+{
+  width: 100%;
+  max-width: 200px;
+  height: 2em;
+
+  border: none;
+  outline: none;
+
+  color: var(--fontcolor-3);
+  font-size: 1.2em;
+
+  border-radius: var(--borderradius-square);
+  background-color: var(--backgroundcolor-1);
+}

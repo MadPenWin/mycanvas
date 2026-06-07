@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Canvas</title>
+
+  <link rel="icon" href="img/mycanvas.png" type="image/png">
+  <link rel="stylesheet" href="scss/use.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <script type="module" src="js/import.js" defer></script>
+</head>
+<body>
+  <div class="navigation-bar">
+    <div class="navigation-bar-leftside">
+      <div class="website-icon">
+        <img src="img/mycanvas.png" class="image-fullsize">
+      </div>
+
+      <input id="projectNameInput" type="text" placeholder="Untitled.." class="project-name-input" autocomplete="off"/>
+    </div>
+
+    <div class="navigation-bar-centerside">
+      <div class="add-shape-bar">
+        <button type="button" id="addShapeSquareButton" class="add-shape-button">
+          <div class="square-icon"></div>
+        </button>
+
+        <button type="button" id="addShapeCircleButton" class="add-shape-button">
+          <div class="circle-icon"></div>
+        </button>
+
+        <button type="button" id="addShapeTriangleButton" class="add-shape-button">
+          <div class="triangle-icon"></div>
+        </button>
+
+        <button type="button" id="addTextButton" class="add-text-button">
+          <div class="text-icon"></div>
+        </button>
+      </div>
+    </div>
+
+    <div class="navigation-bar-rightside">
+      <button type="button" id="themeSwitchButton" class="theme-switch-button">
+        <div class="darkmode-theme-switch-icon"></div>
+      </button>
+
+      <button type="button" class="upload-image-interface">
+        <input id="uploadImageButton" type="file" accept="image/*" style="display:none;">
+
+        <div class="upload-image-interface-icon"></div>
+      </button>
+
+      <button type="button" id="renderCanvasButton" class="render-canvas-button">
+        <div class="render-canvas-icon"></div>
+      </button>
+    </div>
+  </div>
+
+  <div class="workspace-bar">
+    <div class="workspace-bar-leftside" id="workspace-bar-leftside">
+      <div id="colorPickerBar" class="color-picker-bar">
+        <div class="color-picker-bar-topside">
+          <canvas id="saturationValueCanvas" class="saturation-value-canvas" width="200" height="200"></canvas>
+
+          <canvas id="hueCanvas" class="hue-canvas" width="200" height="27"></canvas>
+        </div>
+
+        <div class="color-picker-bar-bottomside">
+          <div id="activeColorBoxElement" class="active-color-box-element"></div>
+
+          <input id="hexadecimalUserInput" class="hexadecimal-user-input" maxlength="7" value="#FF0000" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="upload-image-container" id="uploadImageContainer"></div>
+    </div>
+
+    <div class="the-canvas-editor-bar" id="theCanvasEditorBar">
+      <div class="workspace-bar-leftside-hide-button" id="workspaceBarLeftSideHideButton">
+        <div class="workspace-bar-leftside-hide-icon"></div>
+      </div>
+
+      <div class="the-canvas-scroll-container" id="theCanvasScrollContainer">
+        <div class="the-canvas-design-wrapper" id="theCanvasDesignWrapper">
+          <div class="the-canvas-design-surface" id="theCanvasDesignSurface"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

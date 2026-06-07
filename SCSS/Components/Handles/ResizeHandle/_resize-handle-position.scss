@@ -1,0 +1,91 @@
+.resize-handle.top-left
+{
+  top: -7px;
+  left: -7px;
+
+  cursor: nwse-resize;
+  border-radius: var(--borderradius-circle);
+}
+
+.resize-handle.top-right
+{
+  top: -7px;
+  right: -7px;
+
+  cursor: nesw-resize;
+  border-radius: var(--borderradius-circle);
+}
+
+.resize-handle.bottom-left
+{
+  bottom: -7px;
+  left: -7px;
+
+  cursor: nesw-resize;
+  border-radius: var(--borderradius-circle);
+}
+
+.resize-handle.bottom-right
+{
+  bottom: -7px;
+  right: -7px;
+
+  cursor: nwse-resize;
+  border-radius: var(--borderradius-circle);
+}
+
+.resize-handle.top
+{
+  top: -7px;
+  left: 50%;
+
+  width: 1.7em;
+  height: 10px;
+
+  border-radius: var(--borderradius-round);
+
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.resize-handle.bottom
+{
+  bottom: -7px;
+  left: 50%;
+
+  width: 1.7em;
+  height: 10px;
+
+  border-radius: var(--borderradius-round);
+
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.resize-handle.left
+{
+  left: -7px;
+  top: 50%;
+
+  width: 10px;
+  height: 1.7em;
+
+  border-radius: var(--borderradius-round);
+
+  transform: translateY(-50%);
+  cursor: ew-resize;
+}
+
+.resize-handle.right
+{
+  right: -7px;
+  top: 50%;
+
+  width: 10px;
+  height: 1.7em;
+  
+  border-radius: var(--borderradius-round);
+
+  transform: translateY(-50%);
+  cursor: ew-resize;
+}

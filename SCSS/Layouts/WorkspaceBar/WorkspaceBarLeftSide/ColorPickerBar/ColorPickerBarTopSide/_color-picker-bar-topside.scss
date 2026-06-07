@@ -1,0 +1,13 @@
+.color-picker-bar-topside
+{
+  gap: 0.6em;
+
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  .hue-canvas {border-radius: var(--borderradius-square);}
+  .saturation-value-canvas {border-radius: var(--borderradius-square);}
+}

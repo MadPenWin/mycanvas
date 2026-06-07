@@ -1,0 +1,34 @@
+.shape-square,
+.shape-circle,
+.shape-triangle,
+.text,
+.image
+{
+  outline: none;
+  user-select: none;
+  overflow: visible;
+
+  background-color: transparent;
+
+  position: absolute;
+  cursor: move;
+
+  &:hover {outline: 4px solid rgb(124, 22, 232);}
+
+  .rotate-handle,
+  .resize-handle
+  {
+    display: none;
+  }
+
+  &.the-element-selected
+  {
+    .rotate-handle,
+    .resize-handle
+    {
+      display: flex;
+    }
+  }
+}
+
+.the-element-selected {outline: 4px solid rgb(124, 22, 232);}

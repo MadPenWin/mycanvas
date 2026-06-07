@@ -1,0 +1,13 @@
+.the-canvas-design-surface
+{
+  width: 1920px;
+  aspect-ratio: 16/9;
+
+  background-color: var(--backgroundcolor-2);
+  cursor: pointer;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.the-canvas-design-surface-selected {outline: 4px solid rgb(124, 22, 232);}

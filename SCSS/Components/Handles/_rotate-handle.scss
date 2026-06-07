@@ -1,0 +1,20 @@
+.rotate-handle 
+{
+  top: -3em;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1/1;
+
+  border: 1px solid black;
+  border-radius: var(--borderradius-circle);
+  background-color: rgba(255, 255, 255, 1);
+
+  position: absolute;
+  cursor: grab;
+  
+  z-index: 999;
+}

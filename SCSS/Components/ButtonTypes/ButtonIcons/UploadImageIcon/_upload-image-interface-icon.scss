@@ -1,0 +1,10 @@
+.upload-image-interface-icon
+{
+  height: 1.5em;
+  aspect-ratio: 1/1;
+
+  background-color: var(--fontcolor-3);
+
+  -webkit-mask: url(../img/upload.svg) no-repeat center / contain;
+  mask: url(../img/upload.svg) no-repeat center / contain;
+}

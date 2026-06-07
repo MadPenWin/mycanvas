@@ -1,0 +1,15 @@
+.upload-image-preview 
+{
+  gap: 0.6em;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: var(--borderradius-square);
+  background-color: var(--backgroundcolor-2);
+
+  cursor: pointer;
+
+  display: block;
+  object-fit: cover;
+}

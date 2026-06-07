@@ -1,0 +1,10 @@
+.workspace-bar-leftside-unhide-icon
+{
+  height: 100%;
+  aspect-ratio: 1/1;
+
+  background-color: var(--fontcolor-4);
+
+  -webkit-mask: url(../img/chevron-right.svg) no-repeat center / contain;
+  mask: url(../img/chevron-right.svg) no-repeat center / contain;
+}

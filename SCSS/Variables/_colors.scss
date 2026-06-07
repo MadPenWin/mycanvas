@@ -1,0 +1,35 @@
+:root
+{
+  --lightmode-backgroundcolor-1: oklch(0.80 0 0);
+  --lightmode-backgroundcolor-2: oklch(0.75 0 0);
+  --lightmode-backgroundcolor-3: oklch(0.70 0 0);
+  --lightmode-backgroundcolor-4: oklch(0.65 0 0);
+
+  --lightmode-fontcolor-1: oklch(15% 0 0);
+  --lightmode-fontcolor-2: oklch(40% 0 0);
+  --lightmode-fontcolor-3: oklch(50% 0 0);
+  --lightmode-fontcolor-4: oklch(70% 0 0);
+
+  --darkmode-backgroundcolor-1: oklch(25% 0 0);
+  --darkmode-backgroundcolor-2: oklch(29% 0 0);
+  --darkmode-backgroundcolor-3: oklch(35% 0 0);
+  --darkmode-backgroundcolor-4: oklch(41% 0 0);
+
+  --darkmode-fontcolor-1: oklch(97% 0 0);
+  --darkmode-fontcolor-2: oklch(70% 0 0);
+  --darkmode-fontcolor-3: oklch(50% 0 0);
+  --darkmode-fontcolor-4: oklch(40% 0 0);
+}
+
+:root
+{
+  --backgroundcolor-1: var(--lightmode-backgroundcolor-1);
+  --backgroundcolor-2: var(--lightmode-backgroundcolor-2);
+  --backgroundcolor-3: var(--lightmode-backgroundcolor-3);
+  --backgroundcolor-4: var(--lightmode-backgroundcolor-4);
+
+  --fontcolor-1: var(--lightmode-fontcolor-1);
+  --fontcolor-2: var(--lightmode-fontcolor-2);
+  --fontcolor-3: var(--lightmode-fontcolor-3);
+  --fontcolor-4: var(--lightmode-fontcolor-4);
+}

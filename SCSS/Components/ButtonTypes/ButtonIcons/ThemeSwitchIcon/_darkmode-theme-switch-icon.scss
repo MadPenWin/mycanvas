@@ -1,0 +1,10 @@
+.darkmode-theme-switch-icon
+{
+  height: 100%;
+  aspect-ratio: 1/1;
+
+  background-color: var(--fontcolor-3);
+
+  -webkit-mask: url(..img/sun.svg) no-repeat center / contain;
+  mask: url(../img/sun.svg) no-repeat center / contain;
+}
