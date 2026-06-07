@@ -194,56 +194,56 @@ body {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/square.svg) no-repeat center/contain;
-  mask: url(../img/square.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/square.svg) no-repeat center/contain;
+  mask: url(../IMG/square.svg) no-repeat center/contain;
 }
 
 .circle-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/circle.svg) no-repeat center/contain;
-  mask: url(../img/circle.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/circle.svg) no-repeat center/contain;
+  mask: url(../IMG/circle.svg) no-repeat center/contain;
 }
 
 .triangle-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/triangle.svg) no-repeat center/contain;
-  mask: url(../img/triangle.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/triangle.svg) no-repeat center/contain;
+  mask: url(../IMG/triangle.svg) no-repeat center/contain;
 }
 
 .text-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/text.svg) no-repeat center/contain;
-  mask: url(../img/text.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/text.svg) no-repeat center/contain;
+  mask: url(../IMG/text.svg) no-repeat center/contain;
 }
 
 .darkmode-theme-switch-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(..img/sun.svg) no-repeat center/contain;
-  mask: url(../img/sun.svg) no-repeat center/contain;
+  -webkit-mask: url(..IMG/sun.svg) no-repeat center/contain;
+  mask: url(../IMG/sun.svg) no-repeat center/contain;
 }
 
 .lightmode-theme-switch-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(..img/moon.svg) no-repeat center/contain;
-  mask: url(../img/moon.svg) no-repeat center/contain;
+  -webkit-mask: url(..IMG/moon.svg) no-repeat center/contain;
+  mask: url(../IMG/moon.svg) no-repeat center/contain;
 }
 
 .render-canvas-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/download.svg) no-repeat center/contain;
-  mask: url(../img/download.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/download.svg) no-repeat center/contain;
+  mask: url(../IMG/download.svg) no-repeat center/contain;
 }
 
 .website-icon {
@@ -257,24 +257,24 @@ body {
   height: 1.5em;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-3);
-  -webkit-mask: url(../img/upload.svg) no-repeat center/contain;
-  mask: url(../img/upload.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/upload.svg) no-repeat center/contain;
+  mask: url(../IMG/upload.svg) no-repeat center/contain;
 }
 
 .workspace-bar-leftside-hide-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-4);
-  -webkit-mask: url(../img/chevron-left.svg) no-repeat center/contain;
-  mask: url(../img/chevron-left.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/chevron-left.svg) no-repeat center/contain;
+  mask: url(../IMG/chevron-left.svg) no-repeat center/contain;
 }
 
 .workspace-bar-leftside-unhide-icon {
   height: 100%;
   aspect-ratio: 1/1;
   background-color: var(--fontcolor-4);
-  -webkit-mask: url(../img/chevron-right.svg) no-repeat center/contain;
-  mask: url(../img/chevron-right.svg) no-repeat center/contain;
+  -webkit-mask: url(../IMG/chevron-right.svg) no-repeat center/contain;
+  mask: url(../IMG/chevron-right.svg) no-repeat center/contain;
 }
 
 .shape-inner {
