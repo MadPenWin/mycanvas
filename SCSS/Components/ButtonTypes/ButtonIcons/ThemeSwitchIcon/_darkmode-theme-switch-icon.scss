@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .darkmode-theme-switch-icon
 {
   height: 100%;
@@ -7,4 +8,15 @@
 
   -webkit-mask: url(..IMG/sun.svg) no-repeat center / contain;
   mask: url(../IMG/sun.svg) no-repeat center / contain;
+=======
+.darkmode-theme-switch-icon
+{
+  height: 100%;
+  aspect-ratio: 1/1;
+
+  background-color: var(--fontcolor-3);
+
+  -webkit-mask: url(..IMG/sun.svg) no-repeat center / contain;
+  mask: url(../IMG/sun.svg) no-repeat center / contain;
+>>>>>>> fbf1101 (Update Javascript Code.)
 }

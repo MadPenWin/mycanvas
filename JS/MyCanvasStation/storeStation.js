@@ -34,6 +34,8 @@ export const storeStation =
 
     verticalGuideLine: null,
     horizontalGuideLine: null,
+
+    isHidingColorBar: false,
   },
 
   calculation:

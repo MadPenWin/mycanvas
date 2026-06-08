@@ -18,8 +18,8 @@ export const domStation =
   theCanvasDesignSurface: document.getElementById('theCanvasDesignSurface'),
 
   uploadImageContainer: document.getElementById('uploadImageContainer'),
-
-  colorPickerBar: document.getElementById('colorPickerBar'),
-  hideColorBarButton: document.getElementById('hideColorBarButton'),
   uploadImageButton: document.getElementById('uploadImageButton'),
+
+  workspaceBarLeftSide: document.getElementById('workspaceBarLeftSide'),
+  workspaceBarLeftSideHideButton: document.getElementById('workspaceBarLeftSideHideButton'),
 }

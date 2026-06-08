@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .render-canvas-icon
 {
   height: 100%;
@@ -7,4 +8,15 @@
 
   -webkit-mask: url(../IMG/download.svg) no-repeat center / contain;
   mask: url(../IMG/download.svg) no-repeat center / contain;
+=======
+.render-canvas-icon
+{
+  height: 100%;
+  aspect-ratio: 1/1;
+
+  background-color: var(--fontcolor-3);
+
+  -webkit-mask: url(../IMG/download.svg) no-repeat center / contain;
+  mask: url(../IMG/download.svg) no-repeat center / contain;
+>>>>>>> fbf1101 (Update Javascript Code.)
 }

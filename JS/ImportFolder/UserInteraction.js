@@ -12,3 +12,5 @@ import '../UserInteraction/ProjectNameInput/projectNameInputButton.js'
 
 import '../UserInteraction/UploadImage/uploadImage.js'
 import '../UserInteraction/ThemeSwitch/themeSwitch.js'
+
+import '../UserInteraction/HideLeftSideWorkspaceBar/hideLeftSideWorkspaceBar.js'
