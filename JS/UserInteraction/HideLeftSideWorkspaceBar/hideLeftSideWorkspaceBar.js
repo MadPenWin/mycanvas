@@ -1,5 +1,5 @@
-import { domStation } from '../../myCanvasStation/domStation.js'
-import { storeStation } from '../../myCanvasStation/storeStation.js'
+import { domStation } from '../../MyCanvasStation/domStation.js'
+import { storeStation } from '../../MyCanvasStation/storeStation.js'
 
 
 domStation.workspaceBarLeftSideHideButton.addEventListener('click', () => 
